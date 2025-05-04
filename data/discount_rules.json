@@ -1,0 +1,85 @@
+[
+  {
+    "id": "rule001",
+    "name": "Electronics Discount",
+    "type": "percentage",
+    "value": 10,
+    "applies_to": "category",
+    "target": "electronics",
+    "priority": 100,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule002",
+    "name": "Buy 5 Get 1 Free on Maggi",
+    "type": "buy_x_get_y_free",
+    "x_quantity": 5,
+    "y_quantity": 1,
+    "applies_to": "product",
+    "target": "z002",
+    "priority": 200,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule003",
+    "name": "Cart Threshold Discount",
+    "type": "cart_threshold",
+    "threshold": 200,
+    "value": 20,
+    "applies_to": "cart",
+    "priority": 50,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule004",
+    "name": "Grocery Essentials Discount",
+    "type": "percentage",
+    "value": 5,
+    "applies_to": "category",
+    "target": "grocery",
+    "priority": 90,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule005",
+    "name": "Buy 5 Get 1 Free on Bananas",
+    "type": "buy_x_get_y_free",
+    "x_quantity": 5,
+    "y_quantity": 1,
+    "applies_to": "product",
+    "target": "z007",
+    "priority": 120,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule006",
+    "name": "Premium Cart Discount",
+    "type": "cart_threshold",
+    "threshold": 500,
+    "value": 75,
+    "applies_to": "cart",
+    "priority": 60,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "id": "rule007",
+    "name": "First-Time User Discount",
+    "type": "percentage",
+    "value": 20,
+    "applies_to": "cart",
+    "condition": {
+      "user_attribute": "isFirstTime",
+      "operator": "equals",
+      "value": true
+    },
+    "priority": 300,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  }
+]

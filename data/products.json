@@ -1,0 +1,72 @@
+[
+  {
+    "id": "z001",
+    "name": "Amul Full Cream Milk 1L",
+    "price": 66.00,
+    "category": "dairy",
+    "tags": ["milk", "amul", "dairy"]
+  },
+  {
+    "id": "z002",
+    "name": "Maggi 2-Minute Noodles 70g",
+    "price": 14.00,
+    "category": "instant-food",
+    "tags": ["noodles", "snacks", "maggi"]
+  },
+  {
+    "id": "z003",
+    "name": "Tata Salt Iodized 1kg",
+    "price": 22.00,
+    "category": "grocery",
+    "tags": ["salt", "essentials", "tata"]
+  },
+  {
+    "id": "z004",
+    "name": "Lizol Disinfectant Surface Cleaner 500ml (Citrus)",
+    "price": 99.00,
+    "category": "home-care",
+    "tags": ["cleaning", "disinfectant", "lizol"]
+  },
+  {
+    "id": "z005",
+    "name": "Haldiram's Aloo Bhujia 200g",
+    "price": 42.00,
+    "category": "snacks",
+    "tags": ["haldiram", "namkeen", "snack"]
+  },
+  {
+    "id": "z006",
+    "name": "Colgate Strong Teeth Toothpaste 100g",
+    "price": 52.00,
+    "category": "personal-care",
+    "tags": ["toothpaste", "oral-care", "colgate"]
+  },
+  {
+    "id": "z007",
+    "name": "Banana Robusta (Approx. 500g)",
+    "price": 39.00,
+    "category": "fruits",
+    "tags": ["banana", "fruit", "fresh"]
+  },
+  {
+    "id": "z008",
+    "name": "Fortune Sunlite Refined Sunflower Oil 1L",
+    "price": 129.00,
+    "category": "grocery",
+    "tags": ["oil", "sunflower", "cooking"]
+  },
+  {
+    "id": "z009",
+    "name": "Sprite Soft Drink Bottle 750ml",
+    "price": 45.00,
+    "category": "beverages",
+    "tags": ["cold-drink", "sprite", "soft-drink"]
+  },
+  {
+    "id": "z010",
+    "name": "Surf Excel Quick Wash Detergent Powder 500g",
+    "price": 66.00,
+    "category": "home-care",
+    "tags": ["detergent", "laundry", "surf-excel"]
+  }
+]
