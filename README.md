@@ -113,6 +113,7 @@ Response:
         "ruleName": "First-Time User Discount",
         "discountAmount": 337.99,
         "appliedTo": "cart",
+        "value": 20,
         "type": "percentage"
       }
     ],
